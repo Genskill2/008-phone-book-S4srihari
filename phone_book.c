@@ -199,7 +199,7 @@ int search(FILE *db_file,char *name){
 	}
 	free_entries(base);
 	return match;
-
+}
 int delete(FILE *db_file, char *name) {
   entry *p = load_entries(db_file);
   entry *base = p;
